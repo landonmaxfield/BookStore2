@@ -11,6 +11,7 @@
     <Folder Include="Views\Shared\Components\" />
     <Folder Include="Views\Shared\Components\Types\" />
     <Folder Include="Pages\" />
+    <Folder Include="Views\Purchase\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,5 +31,6 @@
     <None Remove="Views\Shared\Components\" />
     <None Remove="Views\Shared\Components\Types\" />
     <None Remove="Pages\" />
+    <None Remove="Views\Purchase\" />
   </ItemGroup>
 </Project>
