@@ -1,0 +1,25 @@
+﻿@inherits LayoutComponentBase
+
+<div class="bg-info text-white p-2">
+    <span class="navbar-brand m-lg-2">Book Store Administration</span>
+</div>
+
+<div class="container-fluid">
+
+    <div class="row p-2 dgrid">
+        <div class="col-3">
+
+            <div class="dgrid gap-2">
+                <NavLink class="btn outline primary" href="/admin/books"
+                   ActiveClass="btn-primary text-white" Match="NavLinkMatch.Prefix" >Books</NavLink>
+                <NavLink class="btn btn-outline-primary" href="/admin/purchase"
+                   ActiveClass="btn-primary text-white" Match="NavLinkMatch.Prefix">Purchase</NavLink>
+            </div>
+        </div>
+
+        <div class="col">
+            @Body
+        </div>
+    </div>
+
+</div>

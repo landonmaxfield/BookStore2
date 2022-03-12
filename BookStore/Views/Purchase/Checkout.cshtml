@@ -1,14 +1,13 @@
 ﻿@{
 }
 
-@model Donation
-
+@model Purchase  
 <h2>Check out now</h2>
 <p>Enter details here</p>
 
 <form method="post" asp-action="Checkout">
 
-    <div asp-validation-summary="ALL" class="text-danger"></div>
+    <div asp-validation-summary="All" class="text-danger"></div>
     <h4>Ship to</h4>
 
     <div class="form-group">

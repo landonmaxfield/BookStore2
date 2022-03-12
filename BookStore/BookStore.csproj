@@ -12,6 +12,7 @@
     <Folder Include="Views\Shared\Components\Types\" />
     <Folder Include="Pages\" />
     <Folder Include="Views\Purchase\" />
+    <Folder Include="Pages\Admin\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,5 +33,6 @@
     <None Remove="Views\Shared\Components\Types\" />
     <None Remove="Pages\" />
     <None Remove="Views\Purchase\" />
+    <None Remove="Pages\Admin\" />
   </ItemGroup>
 </Project>
